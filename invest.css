@@ -1,0 +1,33 @@
+body {
+  background: url('http://static4.fjcdn.com/comments/When+you+pass+the+atm+the+aux+cord+_f02632232aa0b46e41e76b10535bbf93.jpg') center center fixed;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0 0 15px #fff;
+  font-family: 'Times New Roman', Times, serif;
+  color: #006400;
+}
+
+input {
+	color: #006400;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+	width: 400px; 
+	height: 100px; 
+	color: #008000;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 120%;
+}
+
+output{
+  display:block;
+  width: 1000px;
+  height: 250px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+}
+
+
