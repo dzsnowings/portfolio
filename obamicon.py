@@ -9,10 +9,10 @@ pixels = list(im.getdata())
 listLength=len(pixels)
 
 for i in range(listLength):
-	rValue = pixels[i][0]
-	bValue = pixels[i][1]
-	gValue = pixels[i][2]
-	intensity = rValue + bValue + gValue
+	redValue = pixels[i][0]
+	blueValue = pixels[i][1]
+	greenValue = pixels[i][2]
+	intensity = redValue + blueValue + greenValue
 	if intensity < 182:
 		pixels[i] = darkBlue
 	elif intensity >= 182 and intensity < 364:
