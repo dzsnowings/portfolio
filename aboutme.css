@@ -22,7 +22,7 @@ h2 {text-align:center;color:darkblue;font-family:'Amatic SC',cursive;}
     }
     .navbar {
       overflow: hidden;
-      background-color: blue;
+      background-color: darkblue;
       position: fixed;
       top: 0;
       width: 100%;
