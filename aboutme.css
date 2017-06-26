@@ -1,0 +1,38 @@
+h2 {text-align:center;color:darkblue;font-family:'Amatic SC',cursive;}
+    h3 {color:powderblue;font-family:'Indie Flower',cursive;}
+    h4 {color:powderblue;font-family:'Indie Flower',cursive;}
+    p {color:powderblue;font-family:'Indie Flower',cursive;}
+    li {color:powderblue;font-family:'Indie Flower',cursive;}
+    hr {color:blue;}
+    body {
+      background-image: url("B.A.P Stop It Matoki Album Cover.jpg");
+      background-size: 720px 960px;
+      background-color: rgb(0, 100, 255);
+      padding-top: 50px;
+    }
+    nav {
+      float: center;
+      max-width: 1024px;
+      margin: 0
+      padding: lem;
+    }
+    article {
+      margin-top: 0;
+      padding: lem;
+    }
+    .navbar {
+      overflow: hidden;
+      background-color: blue;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: powderblue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
