@@ -22,7 +22,7 @@
     }
     .navbar {
       overflow: hidden;
-      background-color: #008CBA;
+      background-color: darkblue;
       position: fixed;
       top: 0;
       width: 100%;
@@ -38,8 +38,7 @@
       font-size: 24px;
     }
 .button {
-    background-color: #008CBA;
-    border: 2px solid blue;
+    background-color: darkblue;
     border-radius: 4px;
     color: powderblue;
     padding: 15px 32px;
@@ -52,5 +51,6 @@
 
 .button:hover {
     background-color: powderblue;
-    color: #008CBA;
+    color: darkblue;
+    border: 2px solid darkblue;
 }
