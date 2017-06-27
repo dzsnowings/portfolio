@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Indie+Flower|Kaushan+Script|Pacifico|Rock+Salt|Satisfy" rel="stylesheet">
   <link rel="stylesheet" href="aboutme.css">
   </head>
+  
   <nav>
   <div class="navbar">
     <a href="aboutme-home.html">Home</a>
@@ -13,12 +14,29 @@
     <a href="aboutme-projects.html">Projects</a>
   </div>
   </nav>
+  
   <body>
-    <article>
-      <h2>Projects</h2>
-      <img src="Run, Dog, Run! Screenshot.PNG" alt="Run, Dog, Run!" style="width:480px;height:300px;">
-    </article>
-      <p style="margin-left:500px">This is my side-scroller project "Run, Dog, Run!" made with Scratch. 
+    <h2>Projects</h2>
+    <div>
+      <img class="screenshots" src="Run, Dog, Run! Screenshot.PNG" alt="Run, Dog, Run!" style="width:480px;height:300px;">
+    </div>
+
+    <script>
+    var myIndex = 0;
+    slideshow();
+    function slideshow() {
+        var i;
+        var x = document.getElementsByClassName("screenshots");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(slideshow, 2000);
+    }
+    </script>
+    <p style="margin-left:500px">This is my side-scroller project "Run, Dog, Run!" made with Scratch. 
         Please feel free to play it <a href="https://scratch.mit.edu/projects/165209851/">here</a>!</p>
   </body>
 </html>
