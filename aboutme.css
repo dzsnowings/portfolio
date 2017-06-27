@@ -39,6 +39,7 @@
     }
 .button {
     background-color: darkblue;
+    border: 2px solid powderblue;
     border-radius: 4px;
     color: powderblue;
     padding: 15px 32px;
@@ -47,10 +48,12 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     cursor: pointer;
 
 .button:hover {
     background-color: powderblue;
-    color: darkblue;
     border: 2px solid darkblue;
+    color: darkblue;
 }
