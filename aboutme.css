@@ -23,6 +23,7 @@
     .navbar {
       overflow: hidden;
       background-color: darkblue;
+      border-radius: 4px;
       position: fixed;
       top: 0;
       width: 100%;
@@ -44,7 +45,7 @@
         border: 2px solid powderblue;
         border-radius: 4px;
         color: powderblue;
-        padding: 15px 32px;
+        padding: 4px 4px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
