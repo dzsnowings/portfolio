@@ -1,4 +1,4 @@
-    h2 {text-align:center;color:white;font-family:'Amatic SC',cursive; font-size: 125%}
+    h2 {text-align:center;color:powderblue;font-family:'Indie Flower',cursive; font-size: 125%}
     h3 {color:powderblue;font-family:'Indie Flower',cursive;}
     h4 {color:powderblue;font-family:'Indie Flower',cursive;}
     p {color:powderblue;font-family:'Indie Flower',cursive; font-size: 125%;}
@@ -35,5 +35,5 @@
       text-align: center;
       padding: 14px 96px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 24px;
     }
