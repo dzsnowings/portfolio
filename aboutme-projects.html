@@ -23,27 +23,41 @@
   
   <body>
     <h2>Projects</h2>
-    <div>
-      <img class="screenshots" src="Run, Dog, Run! Screenshot.PNG" alt="Run, Dog, Run!">
-      <img class="screenshots" src="Paddle Ball Game Screenshot.PNG" alt="Paddle Ball Game">
-    </div>
+    <p>These are my projects! Please feel free to click on the images to play the games.</p>
 
+    <div>
+      <a href="https://scratch.mit.edu/projects/165209851/">
+        <img class="screenshots" src="Run, Dog, Run! Screenshot.PNG" alt="Run, Dog, Run!">
+      </a>
+      <a href="https://scratch.mit.edu/projects/165099828/">
+        <img class="screenshots" src="Paddle Ball Game Screenshot.PNG" alt="Paddle Ball Game">
+      </a>
+    </div>
+    
+    <div>
+      <p class="descriptions">This is my side-scroller project "Run, Dog, Run!" made with Scratch.
+        Please feel free to play it by clicking on the image!</p>
+      <p class="descriptions">This is my Paddle Ball Game made with Scratch. Play it with a friend by clicking on the image!</p>
+    </div>
+      
     <script>
     var myIndex = 0;
     slideshow();
     function slideshow() {
         var i;
         var x = document.getElementsByClassName("screenshots");
+        var y = document.getElementsByClassName("descriptions");
         for (i = 0; i < x.length; i++) {
            x[i].style.display = "none";
+           y[i].style.display = "none";
         }
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}    
         x[myIndex-1].style.display = "block";  
+        if (myIndex > y.length) {myIndex = 1}    
+        y[myIndex-1].style.display = "block"; 
         setTimeout(slideshow, 2000);
     }
     </script>
-    <p style="margin-left:500px">This is my side-scroller project "Run, Dog, Run!" made with Scratch. 
-        Please feel free to play it <a href="https://scratch.mit.edu/projects/165209851/">here</a>!</p>
   </body>
 </html>
