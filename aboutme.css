@@ -23,11 +23,10 @@
     .navbar {
       overflow: hidden;
       background-color: darkblue;
-      border-radius: 4px;
       position: fixed;
       top: 0;
       width: 100%;
-      padding-left: 0px;
+      height: 75px;
       margin-left: 0px;
     }
     .navbar a {
@@ -36,8 +35,9 @@
       color: powderblue;
       font-family:'Indie Flower',cursive;
       text-align: center;
-      padding: 8px 120px;
-      margin-left: 120px;
+      vertical-align: middle;
+      padding: 8px 16px;
+      margin-left: 16px;
       text-decoration: none;
       font-size: 24px;
     }
@@ -46,8 +46,8 @@
         border: 2px solid powderblue;
         border-radius: 4px;
         color: powderblue;
-        padding: 4px 4px;
         text-align: center;
+        vertical-align: middle;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
