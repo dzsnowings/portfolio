@@ -56,10 +56,10 @@ function checkPassword() {
   var pwLower = pwReplaced.toLowerCase();
   for (i = 0; i < wordsList.length; i++) {
     if  (pwLower === wordsList[i]) {
-      document.getElementById("results").innerHTML = "Your password '" + pw + "' is <strong>weak and not secure</strong>, and can be found in a dictionary attack.\
+      document.getElementById("results").innerHTML = "Your password '" + pw + "' is <strong>weak</strong> and <strong>not secure</strong>, and can be found in a dictionary attack.\
       Please change your password so that it does not match a word in the dictionary.";
       return;
     }
   }
-  document.getElementById("results").innerHTML = "Congratulations! Your password '" + pw + "' is <strong>strong and secure</strong>, and cannot be found in a dictionary attack."
+  document.getElementById("results").innerHTML = "Congratulations! Your password '" + pw + "' is <strong>strong</strong> and <strong>secure</strong>, and cannot be found in a dictionary attack."
 }
